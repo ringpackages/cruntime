@@ -5,11 +5,11 @@ aPackageInfo = [
 	:developer = "Mahmoud Fayed",
 	:email = "msfclipper@yahoo.com",
 	:license = "MIT License",
-	:version = "1.0.0",
+	:version = "1.0.1",
 	:ringversion = "1.10",
 	:versions = 	[
 		[
-			:version = "1.0.0",
+			:version = "1.0.1",
 			:branch = "master"
 		]
 	],
@@ -45,7 +45,11 @@ aPackageInfo = [
 		"bin/msvcr100.dll",
 		"bin/msvcr120.dll",
 		"bin/msvcr120d.dll",
-		"bin/msvcr120_clr0400.dll"
+		"bin/msvcr120_clr0400.dll",
+		"bin/msvcp140.dll",
+		"bin/vccorelib140.dll",
+		"bin/vcruntime140.dll",
+		"bin/concrt140.dll"
 	],
 	:linuxringfolderfiles = 	[
 
